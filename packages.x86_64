@@ -4,6 +4,26 @@ xorg-xinit
 xorg-twm
 xterm
 
+# video
+mesa
+xf86-video-vmware
+xf86-video-intel
+xf86-video-nouveau
+libxxf86vm
+xf86-input-libinput
+xf86-input-synaptics
+
+# audio
+alsa-utils
+
+# base
+base-devel
+wpa_supplicant
+
+# system
+os-prober
+gparted
+
 # virtualbox
 virtualbox-guest-utils
 virtualbox-guest-dkms
@@ -19,6 +39,8 @@ firefox-i18n-fr
 # goodies
 vim
 xdg-user-dirs
+bash-completion
+ncdu
 
 # archiso packages
 arch-install-scripts

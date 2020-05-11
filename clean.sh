@@ -1,3 +1,3 @@
 #!/bin/sh
-rm -vf work/build.make_*
+rm -r work
 rm -r out
