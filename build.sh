@@ -2,10 +2,10 @@
 
 set -e -u
 
-iso_name=clubcyberos
-iso_label="CCOS_$(date +%Y%m)"
+iso_name=ens7uxn3tos
+iso_label="ENS_$(date +%Y%m)"
 iso_publisher="Nightlyside <http://nightlyside.github.io>"
-iso_application="ClubCyber OS Live/Rescue CD"
+iso_application="ENS7UXN3T OS Live/Rescue CD"
 iso_version=$(date +%Y.%m.%d)
 install_dir=arch
 work_dir=work

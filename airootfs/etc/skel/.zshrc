@@ -27,8 +27,6 @@ export EDITOR="$(if [[ -n $DISPLAY ]]; then echo 'vim'; else echo 'nano'; fi)"	#
 
 PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\$\[\e[m\] \[\e[1;37m\]'
 
-
-
 # pacman aliases (if desired, adapt for your favourite AUR helper)
 
 alias pac="sudo /usr/bin/pacman -S"		# default action	- install one or more packages

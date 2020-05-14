@@ -25,22 +25,81 @@ os-prober
 gparted
 
 # virtualbox
-virtualbox-guest-utils
-virtualbox-guest-dkms
+#virtualbox-guest-utils
+#virtualbox-guest-dkms
 
 # desktop environnement
-plasma-desktop
-konsole
+plasma-meta
+#kde-applications-meta
+packagekit-qt5
+sddm
+dolphin
+partitionmanager
 
-# Web
+# programmation
+python
+python-pip
+pyzo
+
+#Calamares
+calamares
+ens7uxn3tos-calamares-config
+
+# Software
+konsole
+git
 firefox
 firefox-i18n-fr
+gimp
 
 # goodies
 vim
 xdg-user-dirs
 bash-completion
 ncdu
+network-manager-applet
+networkmanager
+neofetch
+yay
+
+## CTF SOFTWARES
+
+# Bruteforcing
+hashcat
+hashcat-utils
+hcxkeys
+hydra
+john
+ophcrack
+
+# Exploit
+metasploit
+
+# Forensic
+audacity
+aircrack-ng
+perl-image-exiftool
+pngcheck
+volatility
+wireshark-cli
+wireshark-qt
+
+# Networking
+nmap
+
+# Reversing
+binutils
+binwalk
+ghidra
+
+# Stegano
+exiv2
+imagemagick
+outguess
+stegsolve
+
+# Web
+#burpsuite
 
 # archiso packages
 arch-install-scripts
